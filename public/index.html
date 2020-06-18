@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="image/x-icon" href="/images/favicon.ico">
+        <link rel="stylesheet" href="/css/main.css">
+        <title>Reverse App</title>
+        <meta charset="utf-8">
+        <meta viewport="width=device-width, initial-scale=1">
+    </head>
+    <body onload="randomWord()">
+        <h1>Reverse App</h1>
+        <p id="wordp"></p>
+
+        <h3 class="one">Input a word:</h3>
+        <span class="inputspan">
+            <input type="text" placeholder="Word here" id="input">
+            <button onclick="main()" class="reverse">REVERSE</button>
+        </span>
+
+        <hr>
+
+        <div class="ans">
+            <h3 id="actual-header"></h3>
+            <p><bdo dir="rtl" id="actual"></bdo></p>
+        </div>
+
+        <!-- Scripts -->
+        <script src="/js/main.js"></script>
+    </body>
+</html>

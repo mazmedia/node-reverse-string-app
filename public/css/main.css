@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    color: #333;
+}
+
+body h1 {
+    margin: 0;
+    background: #00031b;
+    color: white;
+    padding: 16px;
+}
+
+#wordp {
+    margin: 0;
+    background: #e4e4e4;
+    padding: 32px;
+    border-bottom: 1px solid #000;
+}
+
+.one {
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 32px;
+    border-bottom: 1px solid #333;
+}
+
+#input {
+    height: 32px;
+    margin: 0;
+    margin-left: 16px;
+    border: none;
+    border-bottom: 1px solid #333;
+    padding-left: 8px;
+    margin-bottom: 8px;
+}
+
+.reverse {
+    height: 32px;
+    margin: 0;
+    margin-left: 16px;
+    background: #e4e4e4;
+    border: 1px solid #111;
+    border-radius: 10px;
+}
+
+.ans {
+    margin: 16px;
+}
+
+.inputspan {
+    display: block;
+}
